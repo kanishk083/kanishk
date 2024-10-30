@@ -1,14 +1,15 @@
 export default function Footer () {
     return (
-        <>
-         <div>
-            <h2>Hardcore Nasa Build App</h2>
-            <h1>APOD Project</h1>
-        </div>
-        <button className="btn">
-        <i className="fa-solid fa-info"></i>
-        </button>
-        </>
-       
+        <footer>
+            <div className="bgGradient">
+            </div>
+            <div>
+            <h2>Hardcore Nasa App</h2>
+            <h1>APOD PROJECT</h1>
+            </div>
+            <button>
+            <i class="fa-solid fa-circle-info"></i>
+            </button>
+        </footer>
     )
 }
